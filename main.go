@@ -200,7 +200,7 @@ func sendSticker(w http.ResponseWriter, senderID string, stickerGroup string, st
 	}
 
 	// 設置header
-	req.Header.Set("X-Custom-Header", "badfox-sender")
+	req.Header.Set("X-Custom-Header", "hahamut-hender")
 	req.Header.Set("Content-Type", "application/json")
 
 	// For control over HTTP client headers
