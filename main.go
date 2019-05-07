@@ -89,19 +89,19 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Do: Decode body 的東西
-	var msg Message
-	err = json.Unmarshal(b, &msg)
-	if err != nil {
-		http.Error(w, err.Error(), 500)
-		return
-	}
-
 	// Do: 傳回200
 	request200(w)
 
 	// Do: 驗證簽章
 	err = verifyWebhook(r, b)
+	if err != nil {
+		http.Error(w, err.Error(), 500)
+		return
+	}
+	
+	// Do: Decode body 的東西
+	var msg Message
+	err = json.Unmarshal(b, &msg)
 	if err != nil {
 		http.Error(w, err.Error(), 500)
 		return
