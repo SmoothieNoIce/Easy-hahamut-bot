@@ -14,5 +14,6 @@
 ## Inspired by
 [圖片上傳部分](https://home.gamer.com.tw/creationDetail.php?sn=4283806)
 
-
+## 其他
+[文章](https://bad-fox-blog.blogspot.com/2019/05/golang.html)
 
