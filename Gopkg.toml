@@ -1,0 +1,11 @@
+# Refer to https://golang.github.io/dep/docs/Gopkg.toml.html
+# 編輯依賴
+
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[metadata.heroku]
+  root-package = "hahamut-bot"
+  go-version = "go1.9.2"
+  install = [ "./..." ]
