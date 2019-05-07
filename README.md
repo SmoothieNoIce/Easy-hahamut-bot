@@ -1,6 +1,6 @@
-## 簡單串接哈哈姆特 use golang
+# 簡單串接哈哈姆特 use golang
 
-# Installation 
+## Installation 
 
 ### 1.去新增一個bot
 [快去新增](https://haha.gamer.com.tw/bot_list.php)
@@ -11,7 +11,7 @@
 ### 3.用Heroku或其他你喜歡的平台佈署
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-# Inspired by
+## Inspired by
 [圖片上傳部分](https://home.gamer.com.tw/creationDetail.php?sn=4283806)
 
 
