@@ -163,7 +163,7 @@ func sendMsg(w http.ResponseWriter, senderID string, msg string) {
 	}
 
 	// 設置header
-	req.Header.Set("X-Custom-Header", "badfox-sender")
+	req.Header.Set("X-Custom-Header", "hahamut-hender")
 	req.Header.Set("Content-Type", "application/json")
 
 	// For control over HTTP client headers
